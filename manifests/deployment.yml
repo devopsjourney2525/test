@@ -13,7 +13,7 @@ spec:
         app: app1nginxaks 
     spec:
       containers:
-        - name: app1nginxaks 
-          image: aksdevopsacr.azurecr.io/app1nginxaks
+        - name: app1nginxak 
+          image: javedacr.azurecr.io/javedappimage
           ports:
           - containerPort: 80
