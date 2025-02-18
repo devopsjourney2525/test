@@ -12,7 +12,7 @@ variables:
 
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '727eccde-b7bf-4c2d-aba6-2df1b9abe0aa'
-  imageRepository: 'javedappimage'
+  imageRepository: 'app1nginxaks'
   containerRegistry: 'javedacr.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
